@@ -34,8 +34,7 @@ function Landing () {
       else {
         finalResults = results;
       }
-  return (
-  <>
+  return <>
     <Background>
     <h1>Employee Directory</h1>
     </Background>
@@ -45,18 +44,18 @@ function Landing () {
     <Table>
     {finalResults.map(employee => (
     (employee.name.first + " " + employee.name.last).includes(search)?
-    <Item
-    key={employee.id.value}
-    image={employee.picture.thumbnail}
-    name={employee.name.first + " " + employee.name.last}
-    phone={employee.cell}
-    email={employee.email}
-    />:""
+    
+      <Item
+      key={employee.id.value}
+      image={employee.picture.thumbnail}
+      name={employee.name.first + " " + employee.name.last}
+      phone={employee.cell}
+      email={employee.email}
+      />:""
     ))
     }
     </Table>
   </>
-);
 }
 
 export default Landing;

@@ -14,6 +14,14 @@ function Table (props) {
       
       <tbody>
         {props.children}
+        {props.children[0]}
+        {props.children[1]}
+        {props.children[2]}
+        {props.children[3]}
+        {props.children[4]}
+        {props.children[5]}
+        {props.children[6]}
+        {props.children[7]}
       </tbody>
     </table>
   );

@@ -8,6 +8,8 @@ function Item (props) {
         <td>{props.email}</td>
         <td>
         <img alt="img" src={props.image}></img>
+        <img alt="img" src={props.image}></img>
+        <img alt="img" src={props.image}></img>
         </td>
         </tr>
   );
