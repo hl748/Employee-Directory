@@ -1,7 +1,9 @@
   .background {
     height: 200px;
     position: relative;
+    left: 300px;
   }
+
   
   .background::after {
     display: block;

@@ -3,6 +3,8 @@ import Background from './Background'
 import Table from './search'
 import API from "../api";
 import Item from "./table";
+import "./HelloReact.css"
+import headerImage from "./maxresdefault.jpg"
 
 function Landing () {
     const [results, setResults] = useState([])
@@ -35,9 +37,12 @@ function Landing () {
         finalResults = results;
       }
   return <>
+    <img id="headerImage" src={headerImage}></img>
     <Background>
     <h1>Employee Directory</h1>
+    
     </Background>
+    
     <input type="text" onInput={(e) => setSearch(e.target.value)}>
     </input>
     <button onClick={(e) => {setSorted(true)}}>Sort By Name</button>
