@@ -10,7 +10,7 @@
     "index.html": "/Employee-Directory/index.html",
     "static/css/main.61df0b78.chunk.css.map": "/Employee-Directory/static/css/main.61df0b78.chunk.css.map",
     "static/js/2.4ec7c790.chunk.js.LICENSE.txt": "/Employee-Directory/static/js/2.4ec7c790.chunk.js.LICENSE.txt",
-    "static/media/maxresdefault.2bbeca8d.jpg": "/Employee-Directory/static/media/maxresdefault.2bbeca8d.jpg"
+    "/media/maxresdefault.2bbeca8d.jpg": "/Employee-Directory/static/media/maxresdefault.2bbeca8d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cf7b2553.js",
